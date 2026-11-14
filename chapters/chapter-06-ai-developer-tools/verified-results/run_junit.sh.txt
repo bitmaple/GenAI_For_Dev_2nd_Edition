@@ -1,0 +1,25 @@
+Fresh JUnit result directory: <temporary-directory>/chapter06-junit.C2M73t
+PASS repeatedCallKeepsConfirmedState()
+Tests passed: 1; failures: 0; aborted/skipped: 0
+PASS repeatedCallDoesNotSignalNewWork()
+Tests passed: 1; failures: 0; aborted/skipped: 0
+PASS stockAloneWaitsThenPaymentConfirms()
+PASS cancellationBeforeLateFactsStaysTerminal()
+PASS paymentAloneWaits()
+PASS noAcceptedFactsWaits()
+Tests passed: 4; failures: 0; aborted/skipped: 0
+PASS repeatedCallKeepsConfirmedState()
+Tests passed: 1; failures: 0; aborted/skipped: 0
+FAIL repeatedCallDoesNotSignalNewWork()
+org.opentest4j.AssertionFailedError: expected: <ALREADY_CONFIRMED> but was: <NEWLY_CONFIRMED>
+Tests passed: 0; failures: 1; aborted/skipped: 0
+PASS stockAloneWaitsThenPaymentConfirms()
+PASS cancellationBeforeLateFactsStaysTerminal()
+PASS paymentAloneWaits()
+PASS noAcceptedFactsWaits()
+Tests passed: 4; failures: 0; aborted/skipped: 0
+Weak/strong comparison matched the expected outcomes.
+Note: testing/LocalJUnitRunner.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: testing/LocalJUnitRunner.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

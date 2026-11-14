@@ -1,0 +1,36 @@
+Fresh result directory: <temporary-directory>/chapter06-checks.xmWtND
+investigation-baseline: expected exit 0 observed
+investigation-duplicate: expected exit 1 observed
+implementation-baseline: expected exit 0 observed
+implementation-duplicate: expected exit 0 observed
+regression-before: expected exit 1 observed
+regression-after: expected exit 0 observed
+without-confirmed-guard: expected exit 1 observed
+without-cancellation-guard: expected exit 1 observed
+debugging-1: expected exit 0 observed
+debugging-2: expected exit 0 observed
+debugging-3: expected exit 0 observed
+debugging-4: expected exit 0 observed
+debugging-5: expected exit 0 observed
+Local confirmation proposals: 2
+Accepted shared-state updates: 1
+Rejected stale updates: 1
+confirmation-worker: BLOCKED
+Lock owner: notification-owner
+Short lock: other worker entered before wait ended
+Without cleanup: [40, 80, 120]
+With cleanup: [0, 0, 0]
+Assertions passed: 21
+refactoring-original: expected exit 0 observed
+refactoring-refactored: expected exit 0 observed
+All 1,024 five-operation traces match.
+either-fact: expected exit 1 observed
+caller-observe: expected exit 0 observed
+Proposed caller, repeated calls: 2
+Corrected caller, repeated calls: 1
+Proposed caller, cancelled order: 1
+Corrected caller, cancelled order: 0
+caller-bad-repeat: expected exit 1 observed
+caller-bad-cancel: expected exit 1 observed
+caller-corrected: expected exit 0 observed
+All core experiments matched expected outcomes. JUnit is a separate optional run.

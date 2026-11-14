@@ -1,0 +1,20 @@
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+.idea/
+.vscode/
+
+# Generated Java and Maven files
+*.class
+target/
+local-classes/
+classpath.txt
+*.log
+
+# Downloaded dependencies and generated archives
+*.jar
+*.zip

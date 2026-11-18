@@ -18,3 +18,5 @@ classpath.txt
 # Downloaded dependencies and generated archives
 *.jar
 *.zip
+.deps/
+out/
